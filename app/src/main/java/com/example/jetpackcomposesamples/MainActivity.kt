@@ -8,6 +8,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import com.example.jetpackcomposesamples.ui.container_transform_animation.ContainerTransformAnimation
+import com.example.jetpackcomposesamples.ui.get_permission.GetPermission
 import com.example.jetpackcomposesamples.ui.theme.JetpackComposeSamplesTheme
 
 class MainActivity : ComponentActivity() {
@@ -19,7 +20,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    ContainerTransformAnimation()
+                    GetPermission()
                 }
             }
         }
