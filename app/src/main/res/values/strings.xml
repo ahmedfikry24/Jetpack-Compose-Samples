@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Jetpack Compose Samples</string>
+    <string name="open_bottomsheet">open bottomSheet</string>
+    <string name="hello_bottomsheet">hello bottomSheet</string>
 </resources>
